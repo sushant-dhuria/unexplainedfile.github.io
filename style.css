@@ -259,3 +259,78 @@ footer h3{
 footer a{
     color: white;
 }
+@media only screen and (max-width:500px)
+{
+.gallery img{
+    
+    width: 150px;
+height: 90px;
+
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+}
+.gallery img{
+padding: 10px;
+border: 1px solid black ;
+}
+.about-container{
+    display: flex;
+flex-direction: column;
+}
+
+.about-container .contact-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.about-container .contact-info .box{
+padding: 10px 0px;
+display: flex;
+flex-basis: 40%;
+flex-direction: row;
+}
+
+.about-container .contact-info .box .text{
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    background: whitesmoke;
+  
+    
+}
+.contact .content p{
+font-size: 18px;
+
+}
+.contact .content h2{
+    font-size: 25px;
+margin-top: 40px;
+}
+.contactform{
+    width: 50%;
+    padding: 20px;
+    background: #fff;
+border-radius: 8px;
+height: 150px;
+width: 200px;
+}
+.contactform h2{
+    font-size: 15px;
+    color:black;
+font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 80%;
+    margin-top: 10px;
+}
+.contactform .inputbox textarea{
+    height: 40px;
+}
+.contactform .inputbox input[type="text"]{
+    height: 8px;
+}
+
+}
